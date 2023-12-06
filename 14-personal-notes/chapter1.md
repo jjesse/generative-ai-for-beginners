@@ -46,4 +46,23 @@ Will focus on OpenAI GPT (Generative Pre-trained Transformer) models
   - Output token is chosen by the model of it occuring after the current text sequence
   - A degree of randomness is added to this choice so we don't get the exact same output for the same input
   - Used to simulate creative thinking and can be tuned by changing a parameter called "temperature"
-  
+
+## How can I leverage Large Language Models?
+
+The main capabiity of an LLM is generating a text from scratch, starting from an input, and written in a natural language
+
+The input of an LLM is called a prompt and the output is called a completion
+
+A prompt may include:
+
+- An insturction specifying the type of output we expect from the model
+- A question, asked in the form of a conversation w/ an agent
+- A chunk of text to complete, which implicity is an ask for assistance
+- A chunk of code together with the ask of explaining and documenting it, or a comment asking to generate a piece of code performing a specific task
+
+
+## Knowledge Check
+
+- What's true about a large language model?
+  - The response may bary despite using the same prompt. It is also great at giving you a first draft of something, be it text or code
+  - An LLM is non-deterministic, the response may vary based on the temperature setting
