@@ -25,3 +25,4 @@ Standford researchers coined the term and defined it as an AI Model that:
   - Can be used a starting point for other models to be built on
  
 ## Open Source versus Proprietary Models
+       
