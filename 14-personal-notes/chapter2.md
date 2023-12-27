@@ -23,7 +23,6 @@ Standford researchers coined the term and defined it as an AI Model that:
   - Baed on very deep neural networks trained on billions of parameters
 - They are intended to serve as a foundation for other models
   - Can be used a starting point for other models to be built on
-<<<<<<< HEAD
 
 ### Open Source versus Proprietary Models
 
@@ -65,8 +64,33 @@ LLMs can be categorized by the output they generate
   - Models are the Neural Network, with the parameters, weights, and others
   -
 
-=======
+### Open Source versus Proprietary Models
 
-## Open Source versus Proprietary Models
+### Prompt Engineering with Context
 
->>>>>>> 579881f1648c229462f2660eecd00104d8f8c7cc
+Pre-trained LLMs work on generalized natural language tasks. THe better someone can frame their query with a detailed request.
+
+### Retrieval Augmented Generation (RAG)
+
+LLMs can only use the data that has been used during training to generate an answer. This can be augmented with prompts from external data in the form of chunks of documents.
+
+This can be used to fine tune an LLM when a business doesn't have enought time, data or resources to improve things.
+
+### Fine Tuned Model
+
+Process that leverages transfer learning to adapt the model to a specific task or problem. This is different than a RAG as it results in a new model being generated.
+
+- Using fine-tuned models
+  - Like to use fine-tuned less capable models rather than high performance models
+  - Results in a more cost effective and fast solution
+- Considering latency
+  - Latency is important for a specific use-case
+  - Not possible to use very long prompts
+  - The number of examples that should be learned from doesn't fit the prompt length limit
+- Staying up to date
+  - A business has a lot of high-quality data and ground truth labels
+  - A business has the rsources required to maintain this data up to date
+
+### Trained Model
+
+Training a model from scratch is the most difficult and most complex approach to adapt. It requires a bunch of data, skilled users and lots of computational power.
