@@ -60,11 +60,18 @@ Four different potential harms caused by the model and it's responses:
   - Choosing the right model for the right use cause
   - Using only your training data to fine-tune and reduce the risk of harmful content
 - Safety System
-  - A saftey system is a set of tools and configurations on the platform serving the model
-  - Systems should also detect jailbreak acttacks and unwanted activity like requests from bots
+  - A safety system is a set of tools and configurations on the platform serving the model
+  - Systems should also detect jailbreak attacks and unwanted activity like requests from bots
 - Metaprompt
   - Metaprompts and grounding are ways we can direct or limit the models based on behaviors and information
   - This could used to define certain limits of the model
 - User Experience
   - The final layer is where the user interacts directly with the model
-  - 
+  - We can design the UI/UX to limit the user on the type of inputs
+  - We must be transparent about what our Generative AI application can do
+- Evaluate model
+  - We don't always have control over the data the model is built on
+  - We should always evaluate the model's performance and outputs
+  - Measure the model's accuracy, similarity, groundedness, and relevance of the output
+
+## Operate a Responsible Generative AI solution
