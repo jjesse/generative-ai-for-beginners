@@ -74,4 +74,6 @@ Four different potential harms caused by the model and it's responses:
   - We should always evaluate the model's performance and outputs
   - Measure the model's accuracy, similarity, groundedness, and relevance of the output
 
-## Operate a Responsible Generative AI solution
+### Operate a Responsible Generative AI solution
+
+ The final stage of things
