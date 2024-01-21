@@ -23,5 +23,10 @@ This is basically a trail-and-error process. We need to understand three things:
 
 ### Tokenization
 
-An LLM sess prompts as a sequence of tokens and different models can tokenize the same prompt in different ways. Remember an LLM is trained on tokens and not raw data
+An LLM sees prompts as a sequence of tokens and different models can tokenize the same prompt in different ways. Remember an LLM is trained on tokens and not raw data
 
+### Concept: Foundation Models
+
+Once a prompt is tokenized, the primary function of the "Base LLM" or Foundation Model is to predict the token in that sequence. The LLM doesn't understand the meaning of the word in the prompt or token, they just see a pattern.
+
+### Concept: Instruction Tuned LLMs
