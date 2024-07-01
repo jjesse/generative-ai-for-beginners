@@ -1,8 +1,6 @@
 # 검색 애플리케이션 만들기
 
-[![Introduction to Generative AI and Large Language Models](../../images/08-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](TBD)
-
-> **비디오 제공 예정**
+[![Introduction to Generative AI and Large Language Models](../../images/08-lesson-banner.png?WT.mc_id=academic-105485-koreyst)](https://aka.ms/gen-ai-lesson8-gh?WT.mc_id=academic-105485-koreyst)
 
 LLM(대형 언어 모델)은 챗봇과 텍스트 생성 이상의 기능을 가지고 있습니다. Embedding을 사용하여 검색 애플리케이션을 만들 수도 있습니다. Embedding은 데이터의 수치적 표현인 벡터로, 데이터의 의미 기반 검색에 사용할 수 있습니다.
 
@@ -149,7 +147,7 @@ az cognitiveservices account deployment create \
 
 ## 해답
 
-GitHub Codespaces에서 [해답 노트북](../../solution.ipynb?WT.mc_id=academic-105485-koreyst)을 열고 Jupyter Notebook의 지침을 따르세요.
+GitHub Codespaces에서 [해답 노트북](../../python/oai-solution.ipynb?WT.mc_id=academic-105485-koreyst)을 열고 Jupyter Notebook의 지침을 따르세요.
 
 노트북을 실행할 때, 쿼리를 입력하라는 메시지가 표시됩니다. 입력 상자는 다음과 같이 보일 것입니다:
 
