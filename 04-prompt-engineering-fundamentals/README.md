@@ -326,7 +326,7 @@ Prompt Engineering is a trial-and-error process so keep three broad guiding fact
 
 ## Best Practices
 
-Now let's look at common best practices that are recommended by [Open AI](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api?WT.mc_id=academic-105485-koreyst) and [Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/concepts/prompt-engineering#best-practices?WT.mc_id=academic-105485-koreyst) practitioners.
+Now let's look at common best practices that are recommended by [OpenAI](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api?WT.mc_id=academic-105485-koreyst) and [Azure OpenAI](https://learn.microsoft.com/azure/ai-services/openai/concepts/prompt-engineering#best-practices?WT.mc_id=academic-105485-koreyst) practitioners.
 
 | What                              | Why                                                                                                                                                                                                                                               |
 | :-------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -367,7 +367,7 @@ For our assignment, we'll be using a Jupyter Notebook with exercises you can com
 
 ### Next, configure your environment variables
 
-- Copy the `.env.copy` file in repo root to `.env` and fill in the `AZURE_OPENAI_KEY`, `AZURE_OPENAI_ENDPOINT` and `AZURE_OPENAI_DEPLOYMENT` values. Come back to [Learning Sandbox section](./04-prompt-engineering-fundamentals#learning-sandbox) to learn how.
+- Copy the `.env.copy` file in repo root to `.env` and fill in the `AZURE_OPENAI_API_KEY`, `AZURE_OPENAI_ENDPOINT` and `AZURE_OPENAI_DEPLOYMENT` values. Come back to [Learning Sandbox section](./04-prompt-engineering-fundamentals#learning-sandbox) to learn how.
 
 ### Next, open the Jupyter Notebook
 
